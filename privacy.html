@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Le Sync — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Le Sync, a one-way bridge that copies your Google Health data into Apple Health, on-device only." />
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    :root {
+      --ink: #0a0b0e;
+      --panel: #16171c;
+      --line: rgba(255, 255, 255, 0.08);
+      --blue: #3898ec;
+      --green: #34b27b;
+      --text-hi: rgba(255, 255, 255, 0.96);
+      --text-mid: rgba(235, 238, 245, 0.66);
+      --text-lo: rgba(235, 238, 245, 0.42);
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--ink);
+      color: var(--text-mid);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 56px 22px 96px; }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 26px; margin-bottom: 34px; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text-hi); font-size: 19px; letter-spacing: 0.2px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(180deg, var(--blue), var(--green)); display: inline-block; }
+    h1 { color: var(--text-hi); font-size: 30px; line-height: 1.2; margin: 18px 0 8px; letter-spacing: -0.2px; }
+    .eff { color: var(--text-lo); font-size: 14px; margin: 0; }
+    .lede { color: var(--text-mid); font-size: 17px; margin: 22px 0 0; }
+    h2 { color: var(--text-hi); font-size: 20px; margin: 40px 0 10px; letter-spacing: -0.1px; }
+    p { margin: 12px 0; }
+    ul { margin: 12px 0; padding-left: 22px; }
+    li { margin: 7px 0; }
+    strong { color: var(--text-hi); font-weight: 600; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact { margin-top: 14px; padding: 16px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+    footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--text-lo); font-size: 13px; }
+    @media (max-width: 480px) {
+      body { font-size: 16px; }
+      h1 { font-size: 26px; }
+      .wrap { padding: 40px 18px 72px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <span class="brand"><span class="dot"></span>Le Sync</span>
+      <h1>Privacy Policy</h1>
+      <p class="eff">Effective date: 9 June 2026</p>
+      <p class="lede">
+        Le Sync is a one-way bridge that copies your health data from Google Health into Apple
+        Health on your iPhone. This policy explains exactly what the app accesses and what it
+        does with it. In short: your health data stays on your device. We do not run servers
+        that receive it, and we do not track you.
+      </p>
+    </header>
+
+    <h2>What the app accesses</h2>
+    <p>With your permission, Le Sync reads the following from your Google Health account using
+      <strong>read-only</strong> access:</p>
+    <ul>
+      <li><strong>Activity and fitness:</strong> steps, distance, active energy</li>
+      <li><strong>Heart and respiratory metrics:</strong> heart rate, resting heart rate, heart
+        rate variability, blood oxygen, respiratory rate</li>
+      <li><strong>Sleep:</strong> sleep sessions and sleep stages</li>
+    </ul>
+    <p>Le Sync only ever requests read-only Google authorization. It cannot change, add to, or
+      delete anything in your Google account.</p>
+
+    <h2>How the app uses it</h2>
+    <p>Le Sync writes the data it reads into <strong>Apple Health on your device</strong>, sorted
+      into the matching Apple Health categories. Moving your data into Apple Health is the app's
+      only purpose.</p>
+    <p>All processing happens on your iPhone. Your health data is never sent to, or stored on, any
+      server operated by us. Le Sync has no backend, no accounts, and no database.</p>
+
+    <h2>On-device only</h2>
+    <ul>
+      <li>No health data leaves your device, except the direct, encrypted connection between your
+        iPhone and Google's API used to fetch your own data.</li>
+      <li>We do not store your health data anywhere off your device.</li>
+      <li>Le Sync never stores your health data in iCloud, and never uses it for advertising or
+        data-mining (consistent with Apple App Store Review Guideline 5.1.3).</li>
+    </ul>
+
+    <h2>Analytics, tracking, and advertising</h2>
+    <p>None. Le Sync contains no analytics, no tracking, and no advertising. We do not build a
+      profile of you, and we do not share data with data brokers.</p>
+
+    <h2>Sign-in tokens</h2>
+    <p>To connect to Google Health, the app uses Google Sign-In. The resulting authorization
+      tokens are stored only in the <strong>iOS Keychain</strong>, managed by Google's Sign-In
+      SDK. We never see, store, or transmit these tokens ourselves.</p>
+
+    <h2>Third parties</h2>
+    <ul>
+      <li><strong>Google Sign-In and the Google Health API</strong> — used solely to authorize the
+        app and fetch your own health data, at your request. Your use of Google is governed by
+        <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+    </ul>
+    <p>Le Sync uses no other third-party services to collect or process your data.</p>
+
+    <h2>Data retention and deletion</h2>
+    <ul>
+      <li><strong>We retain nothing,</strong> because we never receive your data.</li>
+      <li>The data Le Sync writes into Apple Health lives in Apple Health on your device, under
+        your control. To delete it, remove the samples in the Apple Health app, or delete Le Sync
+        (and, if you wish, remove its data in Apple Health).</li>
+      <li>Signing out clears the app's stored Google authorization tokens. Deleting the app
+        removes its on-device settings and cached sync checkpoints; you will need to sign in
+        again if you reinstall.</li>
+    </ul>
+
+    <h2>How to revoke consent</h2>
+    <ul>
+      <li>In Le Sync, <strong>sign out</strong> (Settings &rarr; Disconnect &amp; Reset). This
+        revokes the app's Google authorization and clears its local sync state.</li>
+      <li>You can also review or revoke Le Sync's access at any time from your Google Account
+        permissions page (myaccount.google.com &rarr; Security &rarr; Third-party access).</li>
+      <li>You control Apple Health write permissions in iOS Settings &rarr; Privacy &amp; Security
+        &rarr; Health.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Le Sync is not directed to children and does not knowingly collect data from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we will update the effective date above and post the revised version
+      at the same location.</p>
+
+    <h2>Contact</h2>
+    <div class="contact">
+      Questions about privacy? Contact us at <strong>[REPLACE: privacy contact email]</strong>.
+    </div>
+
+    <footer>Le Sync &middot; Health data stays on your device.</footer>
+  </main>
+</body>
+</html>
